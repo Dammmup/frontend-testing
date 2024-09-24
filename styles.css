@@ -1,0 +1,42 @@
+body {
+font-family: Arial, sans-serif;
+background-color: #f0f0f0;
+margin: 0;
+padding: 0;
+}
+
+.container {
+width: 300px;
+margin: 50px auto;
+padding: 20px;
+background-color: white;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, input {
+display: block;
+width: 100%;
+margin-bottom: 10px;
+}
+
+button {
+width: 100%;
+padding: 10px;
+background-color: #007bff;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+button:disabled {
+background-color: #ccc;
+}
+
+#message {
+margin-top: 20px;
+}
+
+.hidden {
+display: none;
+}
+
