@@ -1,0 +1,9 @@
+/dist
+/node_modules
+.version
+npm-debug.log
+yarn-error.log
+widget.zip
+/.env
+.vscode
+.history
